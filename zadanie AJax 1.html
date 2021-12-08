@@ -21,7 +21,15 @@
                 var info = JSON.parse(this.responseText);
                 var output ="";
                 for(let i in info){
-                    
+                    output=`
+                        <ul>
+                            <li>ID: ${users[i].id}</li>
+                            <li>NAZWA: ${users[i].name}</li>
+                            <li>PASMO: ${users[i].pasmo}</li>
+                            <li>TYTUŁ: ${users[i].title}</li>
+                        </ul>
+                        <img src="${users[i].img}" width="70" height="70"/>
+                  `  
                 }
                 document.getElementsByTagName("div")[0].innerHTML = output;  
             }
