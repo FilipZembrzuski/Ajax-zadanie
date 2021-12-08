@@ -2,31 +2,46 @@
     {
         "pasmo": "Bieszczady",
         "info":[
-        {
-            "id":"",
-            "title":"",
-            "name":"",
-            "img":""
-        }]
-    }
+            {
+                "id":"1",
+                "title":"najwyższy szczyt Bieszczad",
+                "name":"Howerla",
+                "img":""
+            },
+            {
+                "id":"2",
+                "title":"najwyższy szczyt Bieszczad polskich",
+                "name":"tarnica",
+                "img":""
+            }
+        ]
+    },
     {
         "pasmo": "Tatry",
         "info":[
-        {
-            "id":"",
-            "title":"",
-            "name":"",
-            "img":""
-        }]
-    }
+            {
+                "id":"1",
+                "title":"najwyższy szczyt tatr",
+                "name":"gerlach",
+                "img":""
+            },
+            {
+                "id":"2",
+                "title":"najwyższy szczyt polski",
+                "name":"rysy",
+                "img":""
+            }
+        ]
+    },
     {
-        "pasmo": "Bekidy",
+        "pasmo": "Bekid zachdni",
         "info":[
-        {
-            "id":"",
-            "title":"",
-            "name":"",
-            "img":""
-        }]
+            {
+                "id":"1",
+                "title":"najwyższy szczyt w Beskidach zachodnich",
+                "name":"Babia góra'diablak'",
+                "img":""
+            }
+        ]
     }
 ]
