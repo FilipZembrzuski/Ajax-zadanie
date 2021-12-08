@@ -1,47 +1,37 @@
 [
     {
         "pasmo": "Bieszczady",
-        "info":[
-            {
-                "id":"1",
-                "title":"najwyższy szczyt Bieszczad",
-                "name":"Howerla",
-                "img":""
-            },
-            {
-                "id":"2",
-                "title":"najwyższy szczyt Bieszczad polskich",
-                "name":"tarnica",
-                "img":""
-            }
-        ]
+        "id":"1",
+        "title":"najwyższy szczyt Bieszczad",
+        "name":"Howerla",
+        "img":""
+    },
+    {
+        "pasmo": "Bieszczady",
+        "id":"2",
+        "title":"najwyższy szczyt Bieszczad polskich",
+         "name":"tarnica",
+        "img":""
+    }    ,
+    {
+        "pasmo": "Tatry",
+        "id":"3",
+        "title":"najwyższy szczyt tatr",
+        "name":"gerlach",
+        "img":""
     },
     {
         "pasmo": "Tatry",
-        "info":[
-            {
-                "id":"1",
-                "title":"najwyższy szczyt tatr",
-                "name":"gerlach",
-                "img":""
-            },
-            {
-                "id":"2",
-                "title":"najwyższy szczyt polski",
-                "name":"rysy",
-                "img":""
-            }
-        ]
+        "id":"4",
+        "title":"najwyższy szczyt polski",
+        "name":"rysy",
+        "img":""
     },
     {
         "pasmo": "Bekid zachdni",
-        "info":[
-            {
-                "id":"1",
-                "title":"najwyższy szczyt w Beskidach zachodnich",
-                "name":"Babia góra'diablak'",
-                "img":""
-            }
-        ]
+        "id":"5",
+        "title":"najwyższy szczyt w Beskidach zachodnich",
+        "name":"Babia góra'diablak'",
+        "img":""
     }
 ]
