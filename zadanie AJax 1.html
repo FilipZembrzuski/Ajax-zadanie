@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <button id="przycik">Wyświetl informacje</button>
+    <button id="przycisk">Wyświetl informacje</button>
     <div id="info"></div>
 
     <script>
@@ -17,23 +17,23 @@
 
             var XHR = new XMLHttpRequest();
             XHR.open('get','gory.json',true);
-            xhr.onload = function(){
+            XHR.onload = function(){
                 var info = JSON.parse(this.responseText);
                 var output ="";
                 for(let i in info){
-                    output=`
+                    output += `
                         <ul>
-                            <li>ID: ${users[i].id}</li>
-                            <li>NAZWA: ${users[i].name}</li>
-                            <li>PASMO: ${users[i].pasmo}</li>
-                            <li>TYTUŁ: ${users[i].title}</li>
+                            <li>ID: ${info[i].id}</li>
+                            <li>NAZWA: ${info[i].name}</li>
+                            <li>PASMO: ${info[i].pasmo}</li>
+                            <li>TYTUŁ: ${info[i].title}</li>
                         </ul>
-                        <img src="${users[i].img}" width="70" height="70"/>
+                        <img src="${info[i].img}" width="70" height="70"/>
                   `  
                 }
                 document.getElementsByTagName("div")[0].innerHTML = output;  
             }
-            xhr.send();
+            XHR.send();
         }
     </script>
 </body>
